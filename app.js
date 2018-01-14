@@ -87,7 +87,7 @@ var userAge = prompt('How old are you?');
         for (var guesses = 4; guesses > 0 && notDone; guesses--) {
           guess = prompt('What is my favorite color?'); // get user input
           guess = parseInt(guess); // convert user input to number
-          if (guess === correctColor) {
+          if (guess === 'black') {
             alert('That is right');
             notDone = false;
           } else if (guesses === 1) {
@@ -95,31 +95,34 @@ var userAge = prompt('How old are you?');
           } else {
             alert('guess again');
           }
+        }
     
-     var correctColor = ('black');
-        var notDone = true;
-        var guess;
-        for (var guesses = 4; guesses > 0 && notDone; guesses--) {
-          guess = prompt('What is my favorite color?'); // get user input
-          guess = parseInt(guess); // convert user input to number
-          if (guess === correctColor) {
-            alert('That is right');
-            notDone = false;
-          } else if (guesses === 1) {
-            alert ('you are out of guesses');
-          } else {
-            alert('guess again');
-          }
-    
+var favFoods = ['pizza', 'tacos', 'cheeseburgers', 'chicken strips'];
+var notYet = true;
+var guessFood;
+        for (var guesses = 6; guesses > 0 && notYet; guesses--) 
+        {guessFood = prompt('Can you guess what my favorite foods are?');
+        guess = parseInt(guess);}
+        if (guess === favFoods.length[0])
+            {alert('Lucky guess! One down, three more to go!')
+            notYet = false;}
+        else if (guess === favFoods.length[1])
+            {alert('Wow! Doing better than I tought!')
+            notYet = false;}
+        else if(guess === favFoods.length[2])
+            {alert('Keep up the good work!')
+            notYet = false;}
+        else if (guess === favFoods.length[3])
+            {alert('Nice!')
+            notYet = false;}
+        else if (guesses === 1)
+            {alert('Sorry, out of guesses.')}
+        else {'Guess again!'}
+
+
         
 
-
-
-
-
-
-
-    alert('Very good, ' +user+', this has been fun!');
+        alert('Very good, ' +user+', this has been fun!')
 
         
 
