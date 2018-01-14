@@ -1,8 +1,37 @@
-* {
+body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: bisque;
+    background-color:rgb(158, 226, 223);
 }
 
-h1 {
-    color: green;
+section{
+    width: 300px;
+    background-color: rgba(53, 164, 216, 0.815);
+    padding: 10px;
 }
+
+
+header {
+    text-align: center;
+}
+
+
+
+h1 {
+    color: rgb(37, 57, 149);
+    border-bottom: 6px rgb(7, 7, 7);
+    background-color: rgb(11, 126, 202);
+}
+
+img.align-center {
+    display: block;
+    margin: 0px auto;}
+    img.medium {
+    width: 400px;
+}
+
+
+p {
+    width: 600px;
+    
+}
+
