@@ -7,20 +7,16 @@ alert('Hi, '+ user +'! This will be fun!');
 function inquiry1 () {
   var answer1 = prompt('Does Dave like spicy food?' , 'Type yes or no').toLowerCase();
   console.log('User types answer' + answer1);
-  //check if the user's answer is correct//
-  //what is correct?
-  //find out what the answer is?
-  //toLowerCase or toUpperCase
-  //use a confirm box?
   if (answer1 === 'yes' || answer1 === 'y')
   {alert('Sadly, he is the only Mexican in his family that cannot handle spicy food.');
-    //if it's correct give them a point
   }else {
     //if it is NOT correct, tell them to try again
     alert('Exactly! Oddly enough, he will not eat spicy food to save his life.');}
 }
-//call function
+
 inquiry1();
+
+
 // Question 2
 function inquiry2 () {
   var answer2 = prompt('Is David lazy?' , 'Type yes or no').toLowerCase();
@@ -33,6 +29,8 @@ function inquiry2 () {
     alert('Let\'s just say he likes efficiency.  Lazy has a very bad reputation these days.');
   }}
 //call function
+
+
 inquiry2 ();
 //Question 3
 function inquiry3 () {
@@ -43,6 +41,8 @@ function inquiry3 () {
   }else{
     alert('Nope, he is not Philipino.');}}
 //call function
+
+
 inquiry3 ();
 //Question 4
 var age = prompt('How old is David?' , 'Type a number');
@@ -62,8 +62,9 @@ function inquiry4 () {
   if (userAge === userAge<age) {
     alert('Ha! I\'m your senior!');
   }else if (userAge === userAge>age); {
-    alert('Wow, well you certainly don\' look it');}
-}
+    alert('Wow, well you certainly don\' look it');}}
+
+
 inquiry4();
 function inquiry5 () {
   var colorGuess = (0);
@@ -83,6 +84,7 @@ function inquiry5 () {
     else(alert('Nope, try again!'));
     {userGuess++;}}
 }
+
 inquiry5 ();
 alert('Very good, ' +user+', this has been fun!');
 

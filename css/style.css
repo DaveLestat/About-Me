@@ -1,18 +1,41 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color:rgb(158, 226, 223);
+    background-image: url('../img/Halona.jpg');
+    background-size: auto;
 }
 
 section{
     width: 300px;
-    background-color: rgba(53, 164, 216, 0.815);
+    /* background-color: rgba(181, 228, 248, 0.603); */
     padding: 10px;
+    color: bisque;}
+
+#billpic{
+    float: right
 }
 
+#main{
+    width: 800px;
+    background-color: rgba(235, 234, 231, 0.671);
+    padding: 5px;
+    font-size: 120%;
+    text-indent: 3px;
+}
 
 header {
-    text-align: center;
-}
+    text-align: center;}
+
+blockquote {
+    float: right;
+    width: 275px;
+    font-size: 90%;
+    font-style: italic;
+    font-family: Georgia, Times, serif;
+    margin: 10px 0px 10px 10px;
+    padding: 10px;
+    border-top: 2px solid #020202;
+    border-bottom: 2px solid #020202;
+    background-color: rgba(240, 255, 255, 0.781)}
 
 
 
